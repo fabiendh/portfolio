@@ -27,7 +27,3 @@ gulp.task('default', ['serve']);
 gulp.task('sass:watch', function () {
   gulp.watch('.src/assets/scss/**/*.scss', ['sass']);
 });
-
-gulp.task('default', function() {
-  // place code for your default task here
-});
