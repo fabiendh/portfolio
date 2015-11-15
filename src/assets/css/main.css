@@ -18,6 +18,31 @@
   src: url("../fonts/Kaushan_Script/KaushanScript-Regular.ttf") format("truetype");
   font-weight: normal; }
 
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: #E0E0E0;
+  font-family: Lato, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+#page {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  height: 100%; }
+
 #titre {
   margin-top: 125px;
   font-family: KaushanScript, sans-serif;
@@ -161,85 +186,85 @@ li a {
       width: 120px;
       height: 2px;
       background-color: #282828; }
-  .container-principal .third-container {
-    height: 100%; }
-    .container-principal .third-container .img-section {
-      height: auto;
-      list-style: none;
-      border: 1px solid #999;
-      transition: all 0.2s ease-in-out;
-      -webkit-transition: all 0.2s ease-in-out;
-      -moz-transition: all 0.2s ease-in-out;
-      -ms-transition: all 0.2s ease-in-out;
-      -o-transition: all 0.2s ease-in-out; }
-    .container-principal .third-container .img-section:hover {
-      transform: rotateZ(-5deg);
-      -webkit-transform: rotateZ(-5deg);
-      -moz-transform: rotateZ(-5deg);
-      -ms-transform: rotateZ(-5deg);
-      -o-transform: rotateZ(-5deg); }
-  .container-principal .realisation {
-    float: right;
-    width: 60%;
-    padding-left: 2%;
-    text-align: left; }
-    .container-principal .realisation a {
-      display: inline-block;
-      width: 45%; }
-      .container-principal .realisation a .view {
-        margin-top: 3%;
-        margin-left: 4%; }
-        .container-principal .realisation a .view h2 {
-          font-size: 18px;
-          font-family: Lato, sans-serif;
-          font-weight: bold;
-          color: black;
-          text-transform: uppercase;
-          letter-spacing: 5px;
-          margin: 0;
-          margin-top: 10px; }
-        .container-principal .realisation a .view p {
-          margin-top: -1px;
-          font-size: 16px;
-          font-family: Lato, sans-serif;
-          font-weight: normal;
-          color: black; }
-  .container-principal .competence {
-    margin-top: 40px;
-    text-align: right; }
-    .container-principal .competence img {
-      margin: 10px;
-      height: auto; }
-  .container-principal .bar {
-    margin-top: 5px;
-    height: 3px;
-    float: right;
-    margin-right: 20px;
-    background-color: #EEEEEE; }
-  .container-principal #bar-developpement {
-    width: 428px; }
-  .container-principal #bar-graphisme {
-    width: 290px; }
-  .container-principal #bar-video {
-    width: 157px; }
   .container-principal #developpement {
     background-color: #B3E5FC; }
   .container-principal #graphisme {
     background-color: #EF9A9A; }
   .container-principal #video {
     background-color: #C5E1A5; }
-  .container-principal .information {
-    float: left;
-    width: 38%;
-    padding-top: 5%; }
-    .container-principal .information h2 {
-      text-align: right;
-      font-size: 50px;
-      font-weight: bold;
-      text-transform: uppercase;
-      color: #EEEEEE;
-      margin: 0;
-      padding: 0; }
+  .container-principal .third-container {
+    height: 100%; }
+    .container-principal .third-container .realisation {
+      float: right;
+      width: 60%;
+      padding-left: 2%;
+      text-align: left; }
+      .container-principal .third-container .realisation a {
+        display: inline-block;
+        width: 45%; }
+        .container-principal .third-container .realisation a .view {
+          margin-top: 3%;
+          margin-left: 4%; }
+          .container-principal .third-container .realisation a .view h2 {
+            font-size: 18px;
+            font-family: Lato, sans-serif;
+            font-weight: bold;
+            color: black;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            margin: 0;
+            margin-top: 10px; }
+          .container-principal .third-container .realisation a .view p {
+            margin-top: -1px;
+            font-size: 16px;
+            font-family: Lato, sans-serif;
+            font-weight: normal;
+            color: black; }
+        .container-principal .third-container .realisation a .img-section {
+          height: auto;
+          list-style: none;
+          border: 1px solid #999;
+          transition: all 0.2s ease-in-out;
+          -webkit-transition: all 0.2s ease-in-out;
+          -moz-transition: all 0.2s ease-in-out;
+          -ms-transition: all 0.2s ease-in-out;
+          -o-transition: all 0.2s ease-in-out; }
+        .container-principal .third-container .realisation a .img-section:hover {
+          transform: rotateZ(-5deg);
+          -webkit-transform: rotateZ(-5deg);
+          -moz-transform: rotateZ(-5deg);
+          -ms-transform: rotateZ(-5deg);
+          -o-transform: rotateZ(-5deg); }
+    .container-principal .third-container .information {
+      float: left;
+      width: 38%;
+      padding-top: 5%; }
+      .container-principal .third-container .information h2 {
+        text-align: right;
+        font-size: 50px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #EEEEEE;
+        margin: 0;
+        padding: 0; }
+      .container-principal .third-container .information .competence {
+        margin-top: 40px;
+        text-align: right; }
+        .container-principal .third-container .information .competence img {
+          margin: 10px;
+          height: auto; }
+      .container-principal .third-container .information .bar {
+        margin-top: 5px;
+        height: 3px;
+        float: right;
+        margin-right: 20px;
+        background-color: #EEEEEE; }
+      .container-principal .third-container .information #bar-developpement {
+        width: 428px; }
+      .container-principal .third-container .information #bar-graphisme {
+        width: 290px; }
+      .container-principal .third-container .information #bar-video {
+        width: 157px; }
   .container-principal #footer {
     margin: 0;
     padding: 0;
@@ -269,194 +294,438 @@ li a {
       .container-principal #footer div a {
         color: black; }
 
-* {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+@media (max-width: 1700px) {
+  .img-section {
+    width: 90%; } }
 
-html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  position: relative;
-  background-color: #E0E0E0;
-  font-family: Lato, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+@media (max-width: 1600px) {
+  #menu {
+    left: 50px; }
+  .container-principal #footer div {
+    margin-left: 240px; } }
 
-a {
-  text-decoration: none;
-  color: black; }
-
-#page {
-  text-align: center;
-  width: 100%;
-  margin: auto;
-  height: 100%; }
-
-.competence {
-  margin-top: 40px;
-  text-align: right; }
+@media (max-width: 1450px) {
+  .container-principal #footer div {
+    margin-left: 200px; }
   .competence img {
-    margin: 10px;
-    height: auto; }
+    width: 20%; }
+  .fright-container {
+    padding-top: 60px;
+    padding-right: 0px; }
+    .fright-container #tete {
+      width: 60%; }
+  .fleft-container {
+    padding-left: 8%; }
+    .fleft-container #titre {
+      font-size: 80px; }
+    .fleft-container #menu {
+      left: 27px; } }
 
-.bar {
-  margin-top: 5px;
-  height: 3px;
-  float: right;
-  margin-right: 20px;
-  background-color: #EEEEEE; }
+@media (max-width: 1200px) {
+  .container-principal .third-container {
+    padding-top: 90px; }
+  .container-principal #footer div {
+    margin-left: 150px; } }
 
-#bar-developpement {
-  width: 428px; }
+@media (max-width: 1200px) {
+  .container-principal #footer div {
+    margin-left: 125px; }
+  .fright-container {
+    padding-top: 60px;
+    padding-right: 0px;
+    width: 50%; }
+    .fright-container #tete {
+      margin-left: 50px;
+      width: 50%; }
+  .fleft-container {
+    padding-left: 8%; }
+    .fleft-container #titre {
+      font-size: 50px; }
+    .fleft-container #menu {
+      left: 27px; }
+  .container-principal .third-container .information h2 {
+    font-size: 40px; }
+  .container-principal .third-container .information #bar-developpement {
+    width: 349px; }
+  .container-principal .third-container .information #bar-graphisme {
+    width: 238px; }
+  .container-principal .third-container .information #bar-video {
+    width: 124px; }
+  .container-principal .third-container .realisation a .view h2 {
+    font-size: 16px; }
+  .container-principal .third-container .realisation a .view p {
+    font-size: 14px; } }
 
-#bar-graphisme {
-  width: 290px; }
+@media (max-width: 1000px) {
+  .fright-container {
+    padding-top: 80px; }
+  .container-principal #footer div {
+    margin-left: 105px; }
+  .fleft-container #menu {
+    left: 2px; } }
 
-#bar-video {
-  width: 157px; }
+@media (max-width: 900px) {
+  .fright-container {
+    padding-top: 105px; }
+  .container-principal #footer div {
+    margin-left: 80px; }
+  .fleft-container #toggle {
+    margin-left: 21px; } }
 
-.third-container {
-  height: 100%; }
-
-.realisation {
-  float: right;
-  width: 60%;
-  padding-left: 2%;
-  text-align: left; }
-  .realisation a {
+@media (max-width: 800px) {
+  .fleft-container {
+    padding-left: 30px;
+    width: 60%; }
+    .fleft-container #menu {
+      left: 37%; }
+    .fleft-container #toggle {
+      margin-left: 80%; }
+  .fright-container {
+    padding-top: 81px;
+    padding-right: 0px;
+    width: 40%; }
+    .fright-container #tete {
+      margin-left: 0;
+      width: 80%; }
+  .container-principal .third-container .information h2 {
+    font-size: 30px; }
+  #bar-developpement {
+    width: 258px; }
+  #bar-graphisme {
+    width: 174px; }
+  #bar-video {
+    width: 90px; }
+  .container-principal .third-container .realisation a {
     display: inline-block;
-    width: 45%; }
-    .realisation a .view {
-      margin-top: 3%;
-      margin-left: 4%; }
-      .realisation a .view h2 {
-        font-size: 18px;
-        font-family: Lato, sans-serif;
-        font-weight: bold;
-        color: black;
-        text-transform: uppercase;
-        letter-spacing: 5px;
-        margin: 0;
-        margin-top: 10px; }
-      .realisation a .view p {
-        margin-top: -1px;
-        font-size: 16px;
-        font-family: Lato, sans-serif;
-        font-weight: normal;
-        color: black; }
+    width: 70%;
+    margin-left: 35px; }
+    .container-principal .third-container .realisation a .view {
+      margin-left: 0px; }
+      .container-principal .third-container .realisation a .view .img-section {
+        width: 100%; }
+  .competence img {
+    width: 30%; }
+  .container-principal #footer {
+    height: 650px; }
+    .container-principal #footer div {
+      margin-left: 50px; } }
 
-#developpement {
-  background-color: #B3E5FC; }
-
-#graphisme {
-  background-color: #EF9A9A; }
-
-#video {
-  background-color: #C5E1A5; }
-
-.information {
-  float: left;
-  width: 38%;
-  padding-top: 5%; }
-  .information h2 {
-    text-align: right;
-    font-size: 50px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #EEEEEE;
-    margin: 0;
-    padding: 0; }
-
-.container-principal {
-  margin-top: -2px;
-  z-index: 5;
-  margin: 0 auto;
-  padding: 0;
-  height: 100%;
-  text-align: left; }
-  .container-principal .title-section {
-    margin-left: 20%;
-    font-size: 14px;
-    color: #282828;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-weight: bold;
-    margin-bottom: 100px; }
-    .container-principal .title-section #title-container {
-      margin: 0;
-      padding: 0;
-      font-size: 20px;
-      color: #282828;
-      text-transform: uppercase;
-      letter-spacing: 5px;
-      font-weight: bold; }
-    .container-principal .title-section #bar-section {
-      float: left;
-      margin-left: -16px;
-      margin-top: 5px;
-      width: 120px;
-      height: 2px;
-      background-color: #282828; }
-
-#titre {
-  margin-top: 125px;
-  font-family: KaushanScript, sans-serif;
-  font-size: 100px;
-  line-height: 1.4em; }
-
-#sous-titre {
-  color: #999;
-  font-weight: 700; }
-
-#chapeau {
-  line-height: 1.4em;
-  font-size: 16px;
-  font-weight: lighter; }
-
-.img-section {
-  height: auto;
-  list-style: none;
-  border: 1px solid #999;
-  transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out; }
-
-.img-section:hover {
-  transform: rotateZ(-5deg);
-  -webkit-transform: rotateZ(-5deg);
-  -moz-transform: rotateZ(-5deg);
-  -ms-transform: rotateZ(-5deg);
-  -o-transform: rotateZ(-5deg); }
-
-#footer {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  padding-top: 10px;
-  display: inline-block;
-  background-color: #E0E0E0;
-  position: relative;
-  z-index: 10;
-  height: 250px;
-  width: 100%;
-  overflow: hidden;
-  color: black; }
-  #footer h2 {
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: 20px; }
-  #footer div {
-    text-align: left;
-    font-family: Lato, sans-serif;
-    margin-left: 340px;
-    float: left;
+@media (max-width: 600px) {
+  .fright-container #tete {
+    margin-top: 54px;
+    margin-left: 22px; }
+  .realisation {
+    padding-top: 5%; }
+  .container-principal .third-container .information h2 {
+    font-size: 25px; }
+  .container-principal .third-container .information #bar-graphisme {
+    width: 145px; }
+  .container-principal .third-container .information #bar-video {
+    width: 74px; }
+  .container-principal .third-container .information .bar {
+    margin-right: 15px; }
+  .container-principal .third-container .realisation a .view h2 {
     font-size: 14px; }
-    #footer div h3 {
-      text-transform: uppercase;
-      letter-spacing: 2px; }
-    #footer div a {
-      color: black; }
+  .container-principal .third-container .realisation a .view p {
+    font-size: 12px; }
+  .container-principal #footer div {
+    width: 100%; }
+  .container-principal #footer h2 {
+    font-size: 14px; }
+  .container-principal #footer div {
+    font-size: 12px;
+    padding-left: 150px; }
+  .container-principal #footer {
+    height: 514px; } }
+
+@media (max-width: 420px) {
+  #tete {
+    display: none; }
+  .fleft-container #menu {
+    left: 26%;
+    width: 155px;
+    font-size: 12px; }
+    .fleft-container #menu :after {
+      left: 70px; }
+  #toggle span {
+    height: 3px; }
+  .fleft-container #toggle {
+    margin-left: 43%; }
+  .fleft-container {
+    padding-left: 30px;
+    width: 100%; }
+    .fleft-container #titre {
+      font-size: 41px;
+      margin-top: 90px; }
+    .fleft-container #sous-titre {
+      font-size: 1.2em; }
+    .fleft-container #chapeau {
+      line-height: 1em;
+      font-size: 13px; }
+  .container-principal .title-section #bar-section {
+    width: 102px; }
+  .container-principal .title-section #title-container {
+    font-size: 15px; }
+  #bar-section {
+    width: 101px; }
+  .container-principal .third-container {
+    padding-top: 10px; }
+    .container-principal .third-container .information {
+      width: 100%;
+      padding-top: 0;
+      padding-right: 2%; }
+      .container-principal .third-container .information h2 {
+        font-size: 20px; }
+      .container-principal .third-container .information .bar {
+        margin-right: 14px; }
+      .container-principal .third-container .information #bar-developpement {
+        width: 175px; }
+      .container-principal .third-container .information #bar-graphisme {
+        width: 117px; }
+      .container-principal .third-container .information #bar-video {
+        width: 61px; }
+      .container-principal .third-container .information .competence {
+        margin-top: 30px; }
+        .container-principal .third-container .information .competence img {
+          margin: 8px;
+          margin-top: 0px;
+          width: 17%; }
+    .container-principal .third-container .realisation {
+      width: 100%;
+      padding-left: 2%; }
+      .container-principal .third-container .realisation a {
+        width: 42%;
+        margin-left: 21px; }
+        .container-principal .third-container .realisation a .view h2 {
+          font-size: 10px; }
+        .container-principal .third-container .realisation a .view p {
+          display: none; }
+  .container-principal #footer {
+    height: 370px; }
+    .container-principal #footer h2 {
+      font-size: 14px; }
+    .container-principal #footer div {
+      font-size: 12px; }
+      .container-principal #footer div p {
+        font-size: 10px; } }
+
+@media (max-width: 1700px) {
+  .img-section {
+    width: 90%; } }
+
+@media (max-width: 1600px) {
+  #menu {
+    left: 50px; }
+  .container-principal #footer div {
+    margin-left: 240px; } }
+
+@media (max-width: 1450px) {
+  .container-principal #footer div {
+    margin-left: 200px; }
+  .competence img {
+    width: 20%; }
+  .fright-container {
+    padding-top: 60px;
+    padding-right: 0px; }
+    .fright-container #tete {
+      width: 60%; }
+  .fleft-container {
+    padding-left: 8%; }
+    .fleft-container #titre {
+      font-size: 80px; }
+    .fleft-container #menu {
+      left: 27px; } }
+
+@media (max-width: 1200px) {
+  .container-principal .third-container {
+    padding-top: 90px; }
+  .container-principal #footer div {
+    margin-left: 150px; } }
+
+@media (max-width: 1200px) {
+  .container-principal #footer div {
+    margin-left: 125px; }
+  .fright-container {
+    padding-top: 60px;
+    padding-right: 0px;
+    width: 50%; }
+    .fright-container #tete {
+      margin-left: 50px;
+      width: 50%; }
+  .fleft-container {
+    padding-left: 8%; }
+    .fleft-container #titre {
+      font-size: 50px; }
+    .fleft-container #menu {
+      left: 27px; }
+  .container-principal .third-container .information h2 {
+    font-size: 40px; }
+  .container-principal .third-container .information #bar-developpement {
+    width: 349px; }
+  .container-principal .third-container .information #bar-graphisme {
+    width: 238px; }
+  .container-principal .third-container .information #bar-video {
+    width: 124px; }
+  .container-principal .third-container .realisation a .view h2 {
+    font-size: 16px; }
+  .container-principal .third-container .realisation a .view p {
+    font-size: 14px; } }
+
+@media (max-width: 1000px) {
+  .fright-container {
+    padding-top: 80px; }
+  .container-principal #footer div {
+    margin-left: 105px; }
+  .fleft-container #menu {
+    left: 2px; } }
+
+@media (max-width: 900px) {
+  .fright-container {
+    padding-top: 105px; }
+  .container-principal #footer div {
+    margin-left: 80px; }
+  .fleft-container #toggle {
+    margin-left: 21px; } }
+
+@media (max-width: 800px) {
+  .fleft-container {
+    padding-left: 30px;
+    width: 60%; }
+    .fleft-container #menu {
+      left: 37%; }
+    .fleft-container #toggle {
+      margin-left: 80%; }
+  .fright-container {
+    padding-top: 81px;
+    padding-right: 0px;
+    width: 40%; }
+    .fright-container #tete {
+      margin-left: 0;
+      width: 80%; }
+  .container-principal .third-container .information h2 {
+    font-size: 30px; }
+  #bar-developpement {
+    width: 258px; }
+  #bar-graphisme {
+    width: 174px; }
+  #bar-video {
+    width: 90px; }
+  .container-principal .third-container .realisation a {
+    display: inline-block;
+    width: 70%;
+    margin-left: 35px; }
+    .container-principal .third-container .realisation a .view {
+      margin-left: 0px; }
+      .container-principal .third-container .realisation a .view .img-section {
+        width: 100%; }
+  .competence img {
+    width: 30%; }
+  .container-principal #footer {
+    height: 650px; }
+    .container-principal #footer div {
+      margin-left: 50px; } }
+
+@media (max-width: 600px) {
+  .fright-container #tete {
+    margin-top: 54px;
+    margin-left: 22px; }
+  .realisation {
+    padding-top: 5%; }
+  .container-principal .third-container .information h2 {
+    font-size: 25px; }
+  .container-principal .third-container .information #bar-graphisme {
+    width: 145px; }
+  .container-principal .third-container .information #bar-video {
+    width: 74px; }
+  .container-principal .third-container .information .bar {
+    margin-right: 15px; }
+  .container-principal .third-container .realisation a .view h2 {
+    font-size: 14px; }
+  .container-principal .third-container .realisation a .view p {
+    font-size: 12px; }
+  .container-principal #footer div {
+    width: 100%; }
+  .container-principal #footer h2 {
+    font-size: 14px; }
+  .container-principal #footer div {
+    font-size: 12px;
+    padding-left: 150px; }
+  .container-principal #footer {
+    height: 514px; } }
+
+@media (max-width: 420px) {
+  #tete {
+    display: none; }
+  .fleft-container #menu {
+    left: 29%;
+    width: 155px;
+    font-size: 12px; }
+  #menu:after {
+    left: 70px; }
+  #toggle span {
+    height: 3px; }
+  .fleft-container #toggle {
+    margin-left: 42%; }
+  .fleft-container {
+    padding-left: 30px;
+    width: 100%; }
+    .fleft-container #titre {
+      font-size: 41px;
+      margin-top: 90px; }
+    .fleft-container #sous-titre {
+      font-size: 1.2em; }
+    .fleft-container #chapeau {
+      line-height: 1em;
+      font-size: 13px; }
+  .container-principal .title-section #bar-section {
+    width: 102px; }
+  .container-principal .title-section #title-container {
+    font-size: 15px; }
+  #bar-section {
+    width: 101px; }
+  .container-principal .third-container {
+    padding-top: 10px; }
+    .container-principal .third-container .information {
+      width: 100%;
+      padding-top: 0;
+      padding-right: 2%; }
+      .container-principal .third-container .information h2 {
+        font-size: 20px; }
+      .container-principal .third-container .information .bar {
+        margin-right: 14px; }
+      .container-principal .third-container .information #bar-developpement {
+        width: 175px; }
+      .container-principal .third-container .information #bar-graphisme {
+        width: 117px; }
+      .container-principal .third-container .information #bar-video {
+        width: 61px; }
+      .container-principal .third-container .information .competence {
+        margin-top: 30px; }
+        .container-principal .third-container .information .competence img {
+          margin: 8px;
+          margin-top: 0px;
+          width: 17%; }
+    .container-principal .third-container .realisation {
+      width: 100%;
+      padding-left: 2%; }
+      .container-principal .third-container .realisation a {
+        width: 42%;
+        margin-left: 21px; }
+        .container-principal .third-container .realisation a .view h2 {
+          font-size: 10px; }
+        .container-principal .third-container .realisation a .view p {
+          display: none; }
+  .container-principal #footer {
+    height: 370px; }
+    .container-principal #footer h2 {
+      font-size: 14px; }
+    .container-principal #footer div {
+      font-size: 12px;
+      padding: 0;
+      margin-left: 93px; }
+      .container-principal #footer div p {
+        font-size: 10px; } }
+
+@media (max-height: 525px) {
+  .container-principal .third-container .realisation a {
+    width: 38%; } }
