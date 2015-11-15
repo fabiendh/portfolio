@@ -18,34 +18,24 @@
   src: url("../fonts/Kaushan_Script/KaushanScript-Regular.ttf") format("truetype");
   font-weight: normal; }
 
-* {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+#titre {
+  margin-top: 125px;
+  font-family: KaushanScript, sans-serif;
+  font-size: 100px;
+  line-height: 1.4em; }
 
-html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  position: relative;
-  background-color: #E0E0E0;
-  font-family: Lato, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+#sous-titre {
+  color: #999;
+  font-weight: 700; }
 
-a {
-  text-decoration: none;
-  color: black; }
-
-#page {
-  text-align: center;
-  width: 100%;
-  margin: auto;
-  height: 100%; }
+#chapeau {
+  line-height: 1.4em;
+  font-size: 16px;
+  font-weight: lighter; }
 
 #toggle {
   display: block;
-  width: 28px;
+  width: 38px;
   height: 30px;
   margin-left: 15px; }
 
@@ -88,13 +78,13 @@ a {
 
 #menu {
   position: absolute;
-  left: 56px;
+  left: 76px;
   color: #999;
   width: 200px;
   padding: 10px;
   margin: auto;
   font-family: Lato;
-  font-size: 16px;
+  font-size: 20px;
   text-align: center;
   border-radius: 4px;
   background: white;
@@ -125,6 +115,185 @@ li a {
   text-decoration: none;
   transition: all .1s; }
 
+.fright-container {
+  float: right;
+  padding-right: 220px; }
+
+.fleft-container {
+  float: left;
+  padding-left: 8%; }
+
+#first-container {
+  display: inline-block;
+  margin: auto;
+  padding-top: 10%;
+  height: 100%;
+  background-color: #E0E0E0;
+  width: 100%; }
+
+.container-principal {
+  margin-top: -2px;
+  z-index: 5;
+  margin: 0 auto;
+  padding: 0;
+  height: 100%;
+  text-align: left; }
+  .container-principal .title-section {
+    margin-left: 20%;
+    font-size: 14px;
+    color: #282828;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    margin-bottom: 100px; }
+    .container-principal .title-section #title-container {
+      margin: 0;
+      padding: 0;
+      font-size: 20px;
+      color: #282828;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      font-weight: bold; }
+    .container-principal .title-section #bar-section {
+      float: left;
+      margin-left: -16px;
+      margin-top: 5px;
+      width: 120px;
+      height: 2px;
+      background-color: #282828; }
+  .container-principal .third-container {
+    height: 100%; }
+    .container-principal .third-container .img-section {
+      height: auto;
+      list-style: none;
+      border: 1px solid #999;
+      transition: all 0.2s ease-in-out;
+      -webkit-transition: all 0.2s ease-in-out;
+      -moz-transition: all 0.2s ease-in-out;
+      -ms-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out; }
+    .container-principal .third-container .img-section:hover {
+      transform: rotateZ(-5deg);
+      -webkit-transform: rotateZ(-5deg);
+      -moz-transform: rotateZ(-5deg);
+      -ms-transform: rotateZ(-5deg);
+      -o-transform: rotateZ(-5deg); }
+  .container-principal .realisation {
+    float: right;
+    width: 60%;
+    padding-left: 2%;
+    text-align: left; }
+    .container-principal .realisation a {
+      display: inline-block;
+      width: 45%; }
+      .container-principal .realisation a .view {
+        margin-top: 3%;
+        margin-left: 4%; }
+        .container-principal .realisation a .view h2 {
+          font-size: 18px;
+          font-family: Lato, sans-serif;
+          font-weight: bold;
+          color: black;
+          text-transform: uppercase;
+          letter-spacing: 5px;
+          margin: 0;
+          margin-top: 10px; }
+        .container-principal .realisation a .view p {
+          margin-top: -1px;
+          font-size: 16px;
+          font-family: Lato, sans-serif;
+          font-weight: normal;
+          color: black; }
+  .container-principal .competence {
+    margin-top: 40px;
+    text-align: right; }
+    .container-principal .competence img {
+      margin: 10px;
+      height: auto; }
+  .container-principal .bar {
+    margin-top: 5px;
+    height: 3px;
+    float: right;
+    margin-right: 20px;
+    background-color: #EEEEEE; }
+  .container-principal #bar-developpement {
+    width: 428px; }
+  .container-principal #bar-graphisme {
+    width: 290px; }
+  .container-principal #bar-video {
+    width: 157px; }
+  .container-principal #developpement {
+    background-color: #B3E5FC; }
+  .container-principal #graphisme {
+    background-color: #EF9A9A; }
+  .container-principal #video {
+    background-color: #C5E1A5; }
+  .container-principal .information {
+    float: left;
+    width: 38%;
+    padding-top: 5%; }
+    .container-principal .information h2 {
+      text-align: right;
+      font-size: 50px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #EEEEEE;
+      margin: 0;
+      padding: 0; }
+  .container-principal #footer {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-top: 10px;
+    display: inline-block;
+    background-color: #E0E0E0;
+    position: relative;
+    z-index: 10;
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    color: black; }
+    .container-principal #footer h2 {
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      font-size: 20px; }
+    .container-principal #footer div {
+      text-align: left;
+      font-family: Lato, sans-serif;
+      margin-left: 340px;
+      float: left;
+      font-size: 14px; }
+      .container-principal #footer div h3 {
+        text-transform: uppercase;
+        letter-spacing: 2px; }
+      .container-principal #footer div a {
+        color: black; }
+
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: #E0E0E0;
+  font-family: Lato, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+#page {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  height: 100%; }
+
 .competence {
   margin-top: 40px;
   text-align: right; }
@@ -148,22 +317,6 @@ li a {
 #bar-video {
   width: 157px; }
 
-.fright-container {
-  float: right;
-  padding-right: 8%; }
-
-.fleft-container {
-  float: left;
-  padding-left: 8%; }
-
-#first-container {
-  display: inline-block;
-  margin: auto;
-  padding-top: 10%;
-  height: 100%;
-  background-color: #E0E0E0;
-  width: 100%; }
-
 .third-container {
   height: 100%; }
 
@@ -172,26 +325,27 @@ li a {
   width: 60%;
   padding-left: 2%;
   text-align: left; }
-  .realisation .view {
-    width: 45%;
+  .realisation a {
     display: inline-block;
-    margin-top: 1%;
-    margin-left: 2%; }
-    .realisation .view h2 {
-      font-size: 18px;
-      font-family: Lato, sans-serif;
-      font-weight: bold;
-      color: black;
-      text-transform: uppercase;
-      letter-spacing: 5px;
-      margin: 0;
-      margin-top: 10px; }
-    .realisation .view p {
-      margin-top: -1px;
-      font-size: 16px;
-      font-family: Lato, sans-serif;
-      font-weight: normal;
-      color: black; }
+    width: 45%; }
+    .realisation a .view {
+      margin-top: 3%;
+      margin-left: 4%; }
+      .realisation a .view h2 {
+        font-size: 18px;
+        font-family: Lato, sans-serif;
+        font-weight: bold;
+        color: black;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        margin: 0;
+        margin-top: 10px; }
+      .realisation a .view p {
+        margin-top: -1px;
+        font-size: 16px;
+        font-family: Lato, sans-serif;
+        font-weight: normal;
+        color: black; }
 
 #developpement {
   background-color: #B3E5FC; }
@@ -220,10 +374,31 @@ li a {
   z-index: 5;
   margin: 0 auto;
   padding: 0;
-  height: 100%; }
-  .container-principal h2 {
-    margin: 0;
-    padding: 0; }
+  height: 100%;
+  text-align: left; }
+  .container-principal .title-section {
+    margin-left: 20%;
+    font-size: 14px;
+    color: #282828;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    margin-bottom: 100px; }
+    .container-principal .title-section #title-container {
+      margin: 0;
+      padding: 0;
+      font-size: 20px;
+      color: #282828;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      font-weight: bold; }
+    .container-principal .title-section #bar-section {
+      float: left;
+      margin-left: -16px;
+      margin-top: 5px;
+      width: 120px;
+      height: 2px;
+      background-color: #282828; }
 
 #titre {
   margin-top: 125px;
@@ -243,11 +418,25 @@ li a {
 .img-section {
   height: auto;
   list-style: none;
-  border: 1px solid #999; }
+  border: 1px solid #999;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out; }
+
+.img-section:hover {
+  transform: rotateZ(-5deg);
+  -webkit-transform: rotateZ(-5deg);
+  -moz-transform: rotateZ(-5deg);
+  -ms-transform: rotateZ(-5deg);
+  -o-transform: rotateZ(-5deg); }
 
 #footer {
   margin: 0;
   padding: 0;
+  text-align: center;
+  padding-top: 10px;
   display: inline-block;
   background-color: #E0E0E0;
   position: relative;
@@ -255,11 +444,15 @@ li a {
   height: 250px;
   width: 100%;
   overflow: hidden;
-  text-align: center;
   color: black; }
+  #footer h2 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px; }
   #footer div {
+    text-align: left;
     font-family: Lato, sans-serif;
-    margin-left: 350px;
+    margin-left: 340px;
     float: left;
     font-size: 14px; }
     #footer div h3 {
